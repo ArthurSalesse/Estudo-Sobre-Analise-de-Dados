@@ -43,6 +43,6 @@ Certifique-se de ter o Python instalado. É recomendável o uso de um ambiente v
 4. Inicie o ambiente: 
     ```bash
     jupyter notebook
-```
+
 
 
