@@ -29,17 +29,17 @@ Certifique-se de ter o Python instalado. É recomendável o uso de um ambiente v
 1. Clone o repositório:
    ```bash
    git clone [https://github.com/ArthurSalesse/Estudo-Sobre-Analise-de-Dados.git](https://github.com/ArthurSalesse/Estudo-Sobre-Analise-de-Dados.git)
-```
+    ```
 
 2. Navegue até a pasta do projeto: 
     ```bash
     cd Estudo-Sobre-Analise-de-Dados/analise-de-dados
-```
+    ```
 
 3. Instale as bibliotecas necessárias:
     ```bash
     pip install numpy notebook
-```
+    ```
 4. Inicie o ambiente: 
     ```bash
     jupyter notebook
