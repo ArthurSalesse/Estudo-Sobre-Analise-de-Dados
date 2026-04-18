@@ -1,8 +1,8 @@
-# 📊 Estudo sobre Análise de Dados
+#  Estudo sobre Análise de Dados
 
 Este repositório é dedicado ao estudo prático de técnicas de **Análise de Dados** utilizando o ecossistema Python. O objetivo é documentar a evolução no domínio de bibliotecas essenciais para manipulação, tratamento e visualização de dados.
 
-## 🗂️ Estrutura do Repositório
+##  Estrutura do Repositório
 
 O projeto está organizado por bibliotecas e conceitos fundamentais dentro do diretório `/analise-de-dados`:
 
@@ -12,13 +12,13 @@ O projeto está organizado por bibliotecas e conceitos fundamentais dentro do di
     * Leitura de dados brutos de arquivos externos.
 * **`Projetos de Prática/`**: Contém aplicações reais e exercícios de consolidação de conhecimento.
 
-## 🛠️ Tecnologias e Ferramentas
+##  Tecnologias e Ferramentas
 
 * **Linguagem:** Python 3.x
 * **Bibliotecas:** [NumPy](https://numpy.org/) (em foco no momento).
 * **Ambiente de Desenvolvimento:** Jupyter Notebooks / VS Code.
 
-## 🚀 Como Rodar o Projeto
+##  Como Rodar o Projeto
 
 Para executar os notebooks em sua máquina local, siga os passos abaixo:
 
