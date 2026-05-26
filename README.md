@@ -10,7 +10,7 @@ O projeto está organizado por bibliotecas e conceitos fundamentais dentro do di
     * Manipulação de ND-Arrays.
     * Operações matemáticas e estatísticas.
     * Leitura de dados brutos de arquivos externos.
-* **`Projetos de Prática/`**: Contém aplicações reais e exercícios de consolidação de conhecimento.
+  Contém aplicações reais e exercícios de consolidação de conhecimento.
 
 ##  Tecnologias e Ferramentas
 
