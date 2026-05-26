@@ -118,10 +118,9 @@ jupyter notebook
 ```bash
 Estudo-Sobre-Analise-de-Dados/
 │
-├── datasets/
-├── notebooks/
-├── scripts/
-├── imagens/
+├── analise-de-dados/
+│   └── Untitled.ipynb
+├── .gitignore
 ├── README.md
 └── requirements.txt
 ```
