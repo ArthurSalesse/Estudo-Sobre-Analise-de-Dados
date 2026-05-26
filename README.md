@@ -1,48 +1,128 @@
-#  Estudo sobre Análise de Dados
+# Estudo Sobre Análise de Dados
 
-Este repositório é dedicado ao estudo prático de técnicas de **Análise de Dados** utilizando o ecossistema Python. O objetivo é documentar a evolução no domínio de bibliotecas essenciais para manipulação, tratamento e visualização de dados.
+Projeto desenvolvido com foco em estudos e práticas de análise de dados utilizando Python e bibliotecas voltadas para manipulação, tratamento e visualização de dados.
 
-##  Estrutura do Repositório
+---
 
-O projeto está organizado por bibliotecas e conceitos fundamentais dentro do diretório `/analise-de-dados`:
+# Objetivo do Projeto
 
-* **`numPY/`**: Focado em computação numérica de alta performance.
-    * Manipulação de ND-Arrays.
-    * Operações matemáticas e estatísticas.
-    * Leitura de dados brutos de arquivos externos.
-  Contém aplicações reais e exercícios de consolidação de conhecimento.
+O objetivo deste repositório é reunir estudos, testes e análises realizadas durante o aprendizado de análise de dados, explorando conceitos como:
 
-##  Tecnologias e Ferramentas
+- Manipulação de dados
+- Limpeza e tratamento de informações
+- Visualização de dados
+- Estatística básica
+- Exploração de datasets
+- Geração de insights
 
-* **Linguagem:** Python 3.x
-* **Bibliotecas:** [NumPy](https://numpy.org/) (em foco no momento).
-* **Ambiente de Desenvolvimento:** Jupyter Notebooks / VS Code.
+---
 
-##  Como Rodar o Projeto
+# Tecnologias Utilizadas
 
-Para executar os notebooks em sua máquina local, siga os passos abaixo:
+O projeto foi desenvolvido utilizando:
 
-### 1. Pré-requisitos
-Certifique-se de ter o Python instalado. É recomendável o uso de um ambiente virtual.
+- Python 3.12
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
 
-### 2. Instalação
-1. Clone o repositório:
-   ```bash
-   git clone [https://github.com/ArthurSalesse/Estudo-Sobre-Analise-de-Dados.git](https://github.com/ArthurSalesse/Estudo-Sobre-Analise-de-Dados.git)
-    ```
+---
 
-2. Navegue até a pasta do projeto: 
-    ```bash
-    cd Estudo-Sobre-Analise-de-Dados/analise-de-dados
-    ```
+# Importante Sobre as Bibliotecas
 
-3. Instale as bibliotecas necessárias:
-    ```bash
-    pip install numpy notebook
-    ```
-4. Inicie o ambiente: 
-    ```bash
-    jupyter notebook
+As bibliotecas e dependências do projeto **não foram enviadas para o repositório**, pois o diretório de ambiente virtual foi adicionado ao arquivo `.gitignore`.
 
+Isso foi feito para:
 
+- Evitar upload de arquivos desnecessários
+- Reduzir o tamanho do repositório
+- Facilitar a compatibilidade entre sistemas operacionais
+- Seguir boas práticas de desenvolvimento
+
+Portanto, para executar o projeto corretamente, é necessário instalar manualmente as dependências descritas abaixo.
+
+---
+
+# Versões Recomendadas das Bibliotecas
+
+| Biblioteca | Versão Recomendada |
+|---|---|
+| Python | 3.10+ |
+| pandas | 2.2.2 |
+| numpy | 1.26.4 |
+| matplotlib | 3.8.4 |
+| seaborn | 0.13.2 |
+| jupyter | 1.0.0 |
+| notebook | 7.2.0 |
+
+---
+
+# Como Executar o Projeto
+
+## Clonar o repositório
+
+```bash
+git clone https://github.com/ArthurSalesse/Estudo-Sobre-Analise-de-Dados.git
+```
+## Entrar na pasta do projeto
+
+```bash
+cd Estudo-Sobre-Analise-de-Dados
+```
+
+## Crie um ambiente virtual
+
+- Windows
+
+```bash
+python -m venv venv
+```
+Ativar:
+```bash
+venv\Scripts\activate
+```
+
+- Linux/MacOS
+
+```bash
+python3 -m venv venv
+```
+
+Ativar:
+```bash
+source venv/bin/activate
+```
+
+## Instalar as dependências
+
+Com o comando o terminal:
+```bash
+source venv/bin/activate
+```
+Rodar:
+```bash
+pip install -r requirements.txt
+```
+
+## Executar tudo
+
+Após instalar tudo rode o comando:
+```bash
+jupyter notebook
+```
+
+## Estrutura do Projeto
+
+```bash
+Estudo-Sobre-Analise-de-Dados/
+│
+├── datasets/
+├── notebooks/
+├── scripts/
+├── imagens/
+├── README.md
+└── requirements.txt
+```
 
